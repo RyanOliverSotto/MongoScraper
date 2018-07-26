@@ -1,0 +1,51 @@
+body {
+    background-image: url("/assets/images/NewYorkNight.jpg");
+    padding-top: 70px;
+}
+
+.deleteNote {
+	display: inline-block;
+}
+
+.previousNotes {
+    display: inline-block;
+    width: 90%
+}
+
+#scrape {
+    margin: 8px 0px;
+}
+
+.well {
+    background-color:rgba(44, 62,  69, .8);
+    border-color: #ddd;
+    border-spacing: solid;
+    border: 1px solid;
+}
+
+.well, h1 {
+    color: black;
+    text-align: center;
+    font-family: 'Vast Shadow', cursive;
+}
+
+.panel{
+background-color: rgba(60, 44,  69, .8);
+}
+
+.panel-default > .panel-heading {
+background-color: rgb(76, 108, 53, .8);  
+font-family: 'Vast Shadow', cursive;
+}
+
+p, .panel-default > .panel-heading{
+color: rgb(217, 190, 156, .8);
+}
+
+p{
+    margin-left: 10px;
+}
+
+a{
+    color:limegreen;
+}
