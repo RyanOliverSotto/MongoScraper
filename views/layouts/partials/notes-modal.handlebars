@@ -10,7 +10,7 @@
             <div class="modal-body">
                 {{#if this.notes}}
                     {{#each this.notes}}
-                        <div class="panel panel-default">
+                        <div class="panel panel-success">
                             <div class="panel-body">
                                 <p class="previousNotes"> {{this.body}}</p>
                                 <button type="button" class="btn btn-danger deleteNote" data-note-id={{this._id}} data-article-id={{this.article}}>X</button>
@@ -18,7 +18,7 @@
                         </div>
                     {{/each}}
                 {{else}}
-                    <div class="panel panel-default">
+                    <div class="panel panel-success">
                         <div class="panel-body">
                             <h4>No notes for this article yet.</h4>
                         </div>

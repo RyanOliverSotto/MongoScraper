@@ -16,14 +16,9 @@ body {
     margin: 8px 0px;
 }
 
-.well {
-    background-color: grey;
-    border-color: #ddd;
-    border-spacing: solid;
-    border: 1px solid;
-}
 
-.well, h1 {
+
+h1 {
     color: black;
     text-align: center;
     font-family: 'Vast Shadow', cursive;
@@ -42,6 +37,9 @@ p, .panel-default > .panel-heading{
 color: rgb(217, 190, 156, .8);
 }
 
+h4{
+    color: red;
+}
 p{
     margin-left: 10px;
 }
@@ -51,6 +49,9 @@ a{
 }
 
 .svg{
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
+}
+.jumbotron{
+    background-color: darkgray;
 }
