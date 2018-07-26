@@ -17,7 +17,7 @@ body {
 }
 
 .well {
-    background-color:rgba(44, 62,  69, .8);
+    background-color: grey;
     border-color: #ddd;
     border-spacing: solid;
     border: 1px solid;
@@ -48,4 +48,9 @@ p{
 
 a{
     color:limegreen;
+}
+
+.svg{
+    height: 30px;
+    width: 30px;
 }
