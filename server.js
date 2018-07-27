@@ -40,17 +40,9 @@ app.engine("handlebars", exphbs({
 }));
 app.set("view engine", "handlebars");
 
-// Database configuration with mongoose
-/*
-RyanS@DESKTOP-3UC3TB9 MINGW64 ~/iCloudDrive/nu.homework/week18/MongoScraper (master)
-$ heroku addons:create mongolab
-Creating mongolab on mongoscrapernyt... free
-Welcome to mLab.  Your new subscription is being created and will be available shortly.  Please consult the mLab Add-on Admin UI to check on its progress.
-Created mongolab-transparent-52704 as MONGODB_URI
-Use heroku addons:docs mongolab to view documentation
-*/
+//Toggle for web development and mLab deployment
+
 mongoose.connect("mongodb://rosotto:J0sh85Ni@ds153851.mlab.com:53851/nytimesscraped", { useMongoClient: true });
-//mongoose.connect("mongodb://heroku_jmv816f9:5j1nd4taq42hi29bfm5hobeujd@ds133192.mlab.com:33192/heroku_jmv816f9");
 //mongoose.connect("mongodb://localhost:27017/nytimesmongoosescrape", { useMongoClient: true });
 
 var db = mongoose.connection;
